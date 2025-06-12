@@ -6,15 +6,12 @@
   "content": "🚀 DsReplay is live! [Learn more](dsreplay.com)",
   "colors": {
     "primary": "#34d399",
-    "light": "#000000",
+    "light": "#ffffff",
     "dark": "#15803D"
   },
   "favicon": {
     "light": "/logo/ds-replay-ico-light.svg",
     "dark": "/logo/ds-replay-ico-dark.svg"
-  },
-  "icons": {
-    "library": "lucide"
   },
   "navigation": {
     "tabs": [
@@ -46,18 +43,33 @@
         "tab": "Tutorials & Guides",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Getting Started",
             "pages": [
               "api-reference/introduction"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Projects and Sessions",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api-reference/endpoint/get"
+            ]
+          },
+          {
+            "group": "Backtesting Trades",
+            "pages": [
+              "api-reference/endpoint/get"
+            ]
+          },
+          {
+            "group": "Advanced Features",
+            "pages": [
+              "api-reference/endpoint/get"
+            ]
+          },
+          {
+            "group": "Tips & Best Practices",
+            "pages": [
+              "api-reference/endpoint/get"
             ]
           }
         ]
@@ -68,12 +80,12 @@
         {
           "anchor": "Home",
           "href": "https://dsreplay.com",
-          "icon": "home"
+          "icon": "house"
         },
         {
           "anchor": "Support Center",
           "href": "https://support.dsreplay.com",
-          "icon": "support"
+          "icon": "headset"
         }
       ]
     }
@@ -98,9 +110,6 @@
   "footer": {
     "socials": {
       "x": "https://x.com/mintlify", 
-      "website": "https://x.com/mintlify", 
-      "facebook": "https://x.com/mintlify", 
-      "youtube": "https://x.com/mintlify", 
       "discord": "https://x.com/mintlify",
       "instagram": "https://x.com/mintlify"
     }
