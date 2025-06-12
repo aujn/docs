@@ -36,6 +36,15 @@
               "essentials/navigation",
               "essentials/reusable-snippets"
             ]
+          },
+          {
+            "group": "Legal",
+            "pages": [
+              "legal/privacy-policy",
+              "legal/refund-policy",
+              "legal/cookie-policy",
+              "legal/terms-conditions"
+            ]
           }
         ]
       },
@@ -45,7 +54,7 @@
           {
             "group": "Getting Started",
             "pages": [
-              "api-reference/introduction"
+              "tutorials/introduction"
             ]
           },
           {
